@@ -1,0 +1,5 @@
+---
+- name: install webapp
+  hosts: localhost
+  roles:
+    - webapp

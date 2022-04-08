@@ -1,0 +1,8 @@
+---
+# tasks file for webapp
+- name: run container
+  docker_container:
+    name: webapp
+    image: "{{ image }}"
+    ports: 8082:8082
+    state: started
